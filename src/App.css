@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.button {
+  position: fixed;
+  top: 10%;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button.prev {
+  left: 10%;
+}
+.button.next {
+  right: 10%;
+}
+
+button:disabled {
+  opacity: 0.6;
+  background-color: gray;
+}
